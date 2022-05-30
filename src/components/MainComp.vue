@@ -3,7 +3,7 @@
     <CardComp />
     <SectionComp />
     <SectionSecond />
-
+    <ReviewSection />
   </main>
 </template>
 
@@ -11,10 +11,11 @@
 import CardComp from './CardComp.vue';
 import SectionComp from './SectionComp.vue';
 import SectionSecond from './SectionSecond.vue';
+import ReviewSection from './ReviewSection.vue';
 
 export default {
     name: "MainComp",
-    components: { CardComp, SectionComp, SectionSecond }
+    components: { CardComp, SectionComp, SectionSecond, ReviewSection }
 }
 </script>
 
