@@ -1,10 +1,14 @@
 <template>
-  <main></main>
+  <main>
+    <CardComp />
+  </main>
 </template>
 
 <script>
+import CardComp from './CardComp.vue';
 export default {
-  name: 'MainComp'
+    name: "MainComp",
+    components: { CardComp }
 }
 </script>
 

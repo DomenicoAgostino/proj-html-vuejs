@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <HeaderComp />
-    <CardComp />
+    <MainComp />
   </div>
 </template>
 <script>
 import HeaderComp from './components/HeaderComp.vue';
-import CardComp from './components/CardComp.vue';
+import MainComp from './components/MainComp.vue';
 
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    CardComp
+    MainComp,
 }
 }
 </script>
