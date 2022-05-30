@@ -14,6 +14,11 @@
         </ul>
       </nav>
 
+      <div class="icon">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-shopping-bag"></i>
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
 
     <JumbotronComp />
@@ -42,7 +47,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/style/vars';
-
 
 
 header{
