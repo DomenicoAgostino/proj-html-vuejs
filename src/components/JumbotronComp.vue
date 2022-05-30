@@ -7,6 +7,13 @@
 
     <button>REGISTRATI</button>
 
+    <div class="icon">
+      <i class="fas fa-circle"></i>
+      <i class="fas fa-circle"></i>3
+      <i class="far fa-dot-circle active"></i>
+    </div>
+
+
   </div>
 </template>
 
