@@ -1,15 +1,17 @@
 <template>
   <div class="jumbotron">
-    <h1>Contemporary Idea</h1>
+    <h1>Contemporary Ideas</h1>
     <div class="subtitle">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus distinctio reiciendis et laudantium odit aperiam ut impedit maxime optio sed dolorem, accusantium saepe.</p> 
+      <p>Lorem Ipsn gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elited odio sit amet nibcursus a sit amet mauris.
+
+      </p> 
     </div>
 
-    <button>REGISTRATI</button>
+    <button>Register Now</button>
 
     <div class="icon">
       <i class="fas fa-circle"></i>
-      <i class="fas fa-circle"></i>3
+      <i class="fas fa-circle"></i>
       <i class="far fa-dot-circle active"></i>
     </div>
 
@@ -35,6 +37,8 @@ h1{
   color: white;
   text-align: center;
   margin-top: 120px;
+  font-weight: bold;
+  font-family: $title-font;
 }
 .subtitle{
   font-size: 18px;
@@ -48,6 +52,8 @@ button{
   border: none;
   padding: 15px 25px;
   color: white;
+  font-weight: bold;
+  font-size: 13px;
   text-transform: uppercase;
   width: 200px;
   margin: 30px auto;

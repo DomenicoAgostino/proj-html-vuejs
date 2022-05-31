@@ -61,11 +61,11 @@ header{
       align-items: center;
       padding-top: 30px;
       i{
-        cursor: pointer;
-        filter: opacity(1); 
+        cursor: pointer; 
         font-size: 20px;
         margin: 0 20px;
         color: white;
+        opacity: 0.5;
         &:first-child {
           transform: rotate(90deg);
         }

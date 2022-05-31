@@ -60,8 +60,8 @@ export default {
 .col{
   padding: 50px 0;
   margin: 20px;
-  border: 1px solid lightgray;
-  background-color: darken(#F2F8FC, 5%);
+  border: 1px solid white;
+  background-color: #f2f8fc;
 }
 
 
@@ -69,6 +69,10 @@ img {
   margin-bottom: 20px;
   
 }
+span{
+    font-weight: bold;
+    font-family: $title-font;
+  }
 
 
 </style>

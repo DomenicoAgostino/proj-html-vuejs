@@ -16,7 +16,7 @@
             <i 
             v-show="item.icon"
             class="fas fa-check"></i> 
-            <span v-if="item.icon" >
+            <span class="text-pos" v-if="item.icon" >
               {{item.listPossibilities}}
             </span>
           </li>
@@ -77,7 +77,9 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/style/vars';
 
-
+.text-pos{
+  margin: 10px;
+}
 .container-possibilities{
   display: flex;
   align-items: center;
@@ -90,7 +92,7 @@ export default {
       cursor: pointer;
       display: flex;
       align-items: center;
-      height: 70px;
+      height: 58px;
       width: 240px;
       border: 1px solid #ECECEC;
       margin-left: 5px;
@@ -112,7 +114,7 @@ export default {
     
   }
   .right{
-    margin-left: 50px;
+    margin-left: 13px;
     h2{
 
       font-weight: bold;
@@ -120,7 +122,7 @@ export default {
       margin-top: 50px;
     }
     p{
-      margin: 50px 0;
+      margin: 13px 0;
       color: $secondary-color;
     }
     ul{
@@ -128,6 +130,7 @@ export default {
       padding: 0;
       list-style: none;
       margin: 30px 0;
+      
       li{
         margin: 10px 0;
         i{
@@ -135,7 +138,7 @@ export default {
         }
         
         span{
-          margin: 10px 20px;
+          margin: 10px 0px;
         }
       }
       

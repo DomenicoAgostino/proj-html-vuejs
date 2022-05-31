@@ -7,7 +7,7 @@
 
       <div class="pattern-top d-flex flex-column">
         <h2>Popular Online Courses</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorum ea aliquam voluptate dolores. Possimus reiciendis dolores excepturi laudantium voluptatem?</p>
+        <p class="lorem-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorum ea aliquam voluptate dolores. Possimus reiciendis dolores excepturi laudantium voluptatem?</p>
       </div>
     
 
@@ -91,6 +91,10 @@ export default {
 @import '../assets/style/vars';
 @import '../assets/style/utilities';
 
+.role{
+  margin-left: 20px;
+}
+
 .section-pattern{
     position: relative;
     border-top: 2px solid rgb(231, 231, 231);
@@ -101,15 +105,17 @@ export default {
   }
   
   .pattern-top{
-    
     margin-bottom: 60px;
     
     h2{
-      font-size: 35px;
+      font-size: 42px;
       font-weight: bold;
+      font-family: $title-font;
     }
     p{
       text-align: center;
+      color:black;
+      opacity: 0.5;
     }
   }
   .pattern-bottom{
@@ -134,7 +140,7 @@ export default {
         text-transform: uppercase;
         background-color: #FFD740;
         color: white;
-        padding: 8px 5px;
+        padding: 2px 0px;
         border-radius: 10px;
         width: 55px;
       }

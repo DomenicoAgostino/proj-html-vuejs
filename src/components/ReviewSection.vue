@@ -58,8 +58,8 @@ export default {
     height: 100%;
     margin-bottom: 30px;
     .container-img{
-      width: 150px;
-      height: 150px;
+      width: 126px;
+      height: 126px;
       background-image: url('../assets/img/instructor-img-6.jpg');
       background-size: 160%;
       background-position: 60% 25%;
@@ -77,11 +77,15 @@ export default {
       font-size: 30px;
       display: block;
       margin: 20px 0;
+      font-weight: bold;
+      font-family: $title-font;
     }
     .student{
       color: white;
       text-transform: uppercase;
       font-size: 18px;
+      font-weight: bold;
+      
     }
     .container-icon{
       cursor: pointer;

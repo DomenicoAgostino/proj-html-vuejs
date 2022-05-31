@@ -17,8 +17,17 @@
               <tr class="title-row"> 
                 <td
                 v-for="(title, i) in titleBox" :key="i">
-                <div class="container-title d-flex flex-column justify-content-center align-items-center my-4 ">
-                    
+             
+
+                  <!-- <img src="../assets/img/h5-custom-icon-7.png" alt="">
+                  <img :src ="title.img" :alt="title.title"> -->
+                  <!-- <img :src="require(`../assets/img/${title.img}`)" alt class="title.title" /> -->
+                  <!-- <img :src="'/img/' + title.img + '.png'" v-bind:alt="title.title" > -->
+                  <!-- <img :src=" require('../assets/img/' + title.img + '.png')" v-bind:alt="title.title" > -->
+                  <!-- <img :src =" require('../assets/img/' + title.img )"  :alt="title.title"> -->
+
+                  <div class="container-title d-flex flex-column justify-content-center align-items-center my-4 ">
+                    <img class="" src="../assets/img/h5-custom-icon-7.png" alt="">
 
                     <div class="title">
                       {{title.title}}
@@ -60,13 +69,15 @@
     </div>
     
   </div>
+
+
 </template>
 
 <script>
 export default {
   name: 'PlansSection',
 
-  data(){
+   data(){
     return{
       titleBox:[
         { 
@@ -75,17 +86,17 @@ export default {
           cost: '_'
         },
         {
-          img: '',
+          img: 'h5-custom-icon-7.png',
           title:'Standard',
           cost: '$12'
         },
         {
-          img: '',
+          img: 'h5-custom-icon-8.png',
           title:'Professional',
           cost: '$12'
         },
         {
-          img: '../assets/img/h5-custom-icon-9.png',
+          img: 'h5-custom-icon-9.png',
           title:'Advanced',
           cost: '$12'  
         }
@@ -145,7 +156,6 @@ export default {
     }
   }
 }
-
 </script>
 
 <style lang="scss" scoped>
